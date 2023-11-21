@@ -2,6 +2,6 @@ To solve this problem, I used differencing to stationarize the time series and f
 
 I displayed my results in an interactive lineplot built with Gradio. To run the app, enter the following command into the command line: 
 
-$ docker run -p 7860:7860 -e GRADIO_SERVER_NAME=0.0.0.0 sample
+$ docker run -p 7860:7860 -e GRADIO_SERVER_NAME=0.0.0.0 fetch_assessment
 
 Afterwards, go to http://localhost:7860/, where the Gradio app should be running. 
